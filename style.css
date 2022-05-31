@@ -6,14 +6,26 @@ body {
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:gray;
+    text-align: center;
 }
 
-.maindiv{
+.maindiv{ 
     background-color: white;
     color:black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto
+}
+.cont{
+    /*border-style: solid;*/
+    display:flex;
+    height: 20px;
+    justify-content: flex-start;
 }
 
+.Text_in{
+    align-self:flex-end;
+    margin-right: 20px;
+}
